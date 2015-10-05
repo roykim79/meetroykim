@@ -1,0 +1,544 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Base
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+html {
+}
+body {
+	background-color: #4A525A;
+	color: #fff;
+	font-family: "open sans", arial, sans-serif;
+}
+header,
+footer,
+section,
+article {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+header {
+	padding: 5px 0;
+}
+footer {
+	padding: 2%;
+}
+section {
+	padding: 1% 0;
+}
+article {
+	border-radius: 3px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+span {
+	display: inline-block;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Utilities
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.center {
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+}
+.page-center {
+	text-align: center;
+}
+.inline {
+	display: inline-block;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.spaced {
+	letter-spacing: .25em;
+}
+.red {
+	color: #af2020;
+	font-size: 1.3em;
+}
+.invisible {
+	opacity: 0;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Grid
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+.row {
+	clear: both;
+	*zoom: 1;
+}
+
+.col-half-full {
+	float: left;
+	margin: 1% 3%;
+	width: 44%;
+}
+.col-third-half-full {
+	float: left;
+	margin: 1% 2%;
+	width: 29%;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Typography
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "open sans", arial, sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 2.75em;
+	color: #fff;
+}
+h2 {
+	border-bottom: 1px solid #595959;
+	color: #fff;
+	font-size: 1.5em;
+}
+h3 {
+	color: #af2020;
+	display: inline-block;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+h4 {
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+p {
+	font-family:  "Open Sans", arial, sans-serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+}
+small {
+	color: #aaa;
+	font-size: 60%;
+}
+b {
+	font-weight: bold;
+}
+em {
+	color: #469;
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Backgrounds
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.work-bg,
+.rt-bg {
+	background: #ccc;
+}
+.label-bg {
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: auto;
+    top: -100vh;
+    right: auto;
+    bottom: auto;
+	-webkit-animation-duration: .2s;
+       -moz-animation-duration: .2s;
+        -ms-animation-duration: .2s;
+            animation-duration: .2s;
+    -webkit-animation-timing-function: ease-out;
+       -moz-animation-timing-function: ease-out;
+        -ms-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+.skills-bg {
+	background: #9b9b9b;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Sections
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+img {
+	display: block;
+	float: none;
+	width: 100%;
+}
+
+/**********************
+ * Samples / Work
+ **********************/
+
+#samples,
+#skills {
+	padding-bottom: 5%;
+	padding-top: 3%;
+}
+#samples h2 {
+	margin-bottom: 2%;
+}
+.description {
+	overflow: hidden;
+	position: relative;
+}
+h3.label {
+	bottom: 0px;
+	color: #ddd;
+	display: block;
+	/*font-size: 1.25em;*/
+	left: 0;
+	margin-bottom: 3.5em;
+	position: absolute;
+	width: 99%;
+	z-index: 1;
+}
+.resume-body {
+	position: relative;
+}
+.resume-section {
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.resume-entry {
+	margin-bottom: 20px;
+}
+.resume-entry h4 {
+	color: #469;
+	font-weight: normal;
+}
+.dates,
+.location {
+	color: #999;
+	display: block;
+	float: right;
+	font-size: .8em;
+	font-style: italic;
+	font-weight: 300;
+	margin-right: 10px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Lists
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+ul.inline {
+	font-family: arial, sans-serif;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.inline li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 auto;
+}
+.list-disc {
+	list-style: disc;
+	font-family: "open sans", sans-serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+	margin-left: 15px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Links
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+a {
+	color: #aaa;
+	font-family: "open sans", arial, sans-serif;
+	text-decoration: none;
+}
+a:hover {
+	/*color: #ddf;*/
+	color: #ddd;
+}
+header a {
+	color: #fff;
+}
+#samples a {
+	color: #a31010;
+	font-size: 1em;
+	font-weight: lighter;
+}
+#samples a h3 {
+	display: block;
+	text-align: center;
+}
+.header-nav {
+	margin-top: 15px;
+}
+.nav-link {
+	padding-left: .5em;
+}
+.contact {
+	display: inline-block;
+	font-family: arial, sans-serif;
+	font-size: .8em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Slideshow
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.slideshow {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+}
+.slides li {
+}
+.js .slides {
+	height: 460px;
+	width: 100%;
+}
+.js .slides {
+	position: relative;
+}
+.js .slides li {
+	position: absolute;
+}
+.title {
+	display: none;
+}
+.nav-wrap {
+	bottom: 40%;
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+.next {
+	float: right;
+}
+.prev {
+	float: left;
+}
+.slideshow:hover .prev img,
+.slideshow:hover .next img {
+	background: #ddd;
+	background: rgba(150,150,150,.6);
+	opacity: 1;
+}
+.prev img,
+.next img {
+	opacity: .2;
+	transition: .4s;
+	width: 50px;
+}
+/* indicator */
+.dots {
+  background: #000;
+  bottom: 20px;
+  opacity: .2;
+  padding: 5px;
+  position: absolute;
+}
+.dot {
+  background: #888;
+  border-radius: 50%;
+  display: block;
+  float: left;
+  height: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 5px;
+}
+.dot.selected {
+  background: #fff;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Footer
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+a.contact {
+	font-family: 'Oswald';
+}
+ .icon {
+ 	border: 2px solid #aaa;
+ 	border-radius: 50%;
+ 	display: inline-block;
+ 	font-family: 'Passion One', sans-serif;
+ 	font-size: 1.2em;
+ 	line-height: 30px;
+ 	margin-right: 7px;
+ 	padding-left: 4px;
+ 	text-align: center;
+ 	/*transition-duration: .3s;*/
+ 	width: 26px;
+ }
+.icon,
+ .contact {
+ 	transition-duration: .1s;
+ }
+ footer.container {
+ 	overflow: visible;
+ }
+ul.inline-spaced li {
+	overflow: visible;
+}
+ .contact:hover a {
+ 	overflow: visible;
+ }
+.contact:hover .icon {
+	border-color: #ddd;
+	overflow: visible;
+	transform: scale(1.04);
+	/*font-size: 1.25em;*/
+	/*height: 32px;*/
+	/*width: 28px;*/
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Media Queries
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+@media (max-width: 850px) {
+
+
+}
+
+@media (max-width: 750px) {
+	.container {
+		padding: 2%;
+		width: 98%;
+	}
+	.dates, .location {
+		float: none;
+	}
+	.location {
+		margin: 5px 0;
+	}
+	.col-third-half-full {
+		margin: 1% 3%;
+		width: 44%;
+	}
+	.description h3 {
+		visibility: visible;
+	}
+	.description img {
+		/*opacity: .4;*/
+	}
+}
+
+@media (max-width: 650px) {
+	.about {
+		width: 100%;
+	}
+	.col-half-full {
+		width: 94%;
+	}
+	.slideshow {
+		width: 500px;
+	}
+	.js .slides {
+		height: 380px;
+	}
+	.tag {
+		display: none;
+	}
+	.dots {
+  		bottom: 10px;
+	}
+	.prev img,
+	.next img {
+		background: #ddd;
+		background: rgba(150,150,150,.6);
+		opacity: 1;
+		width: 30px;
+	}
+}
+
+@media (max-width: 600px) {
+	.col-third-half-full {
+		width: 94%;
+	}
+	
+	.inline li {
+		border-bottom: 1px solid #fff;
+		display: block;
+		padding: 10px 0;
+	}
+	.inline li:last-child {
+		border-bottom: none;
+	}
+	.footer-contact-divider {
+		display: none;
+	}
+
+
+}
+
+@media (max-width: 550px) {
+	.slideshow {
+		width: 400px;
+	}
+	.js .slides {
+		height: 310px;
+	}
+	.dots {
+		bottom: 15px;
+	}
+	
+}
+
+@media (max-width: 475px) {
+	header {
+		font-size: .8em;
+	}
+	.slideshow{
+		width: 290px;
+	}
+	.js .slides {
+		height: 230px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

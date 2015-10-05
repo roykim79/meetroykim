@@ -1,0 +1,83 @@
+#hero {
+	background: #4A525A;
+	position: relative;
+}
+
+#hero .content {
+}
+
+.name {
+	border-bottom: 3px solid #3a3a42;
+	display: inline-block;
+	font-family: 'Open Sans Condensed';
+	font-size: 5em;
+	font-weight: 300;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+
+}
+
+.title {
+	color: #3E78B2;
+	color: #fff;
+	display: inline-block;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+#skills  {
+	text-align: center;
+}
+
+.logo {
+	border: 3px solid #fff;
+	border-bottom-color: transparent; 
+	border-radius: 50%;
+	color: #3a3a42;
+	display: inline-block;
+	font-family: "Open Sans", "PT Serif", "Georgia";
+	font-size: 2.25em;
+	font-weight: 300;
+	line-height: 1.6em;
+	padding:  4px ;
+	transition: transform 2s;
+}
+
+.logo:hover {
+	position: relative;
+	transform: rotateY(540deg);
+}
+
+.R, .K {
+	display: inline-block;
+	position: relative;
+}
+
+.R {
+	left: .2em;
+	transform: rotateY(180deg);
+}
+
+.K {
+	right: .2em;
+}
+
+.down {
+	display: inline-block;
+	/*position: absolute;*/
+	transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
