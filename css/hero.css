@@ -25,7 +25,6 @@
 	font-size: 1em;
 }
 
-
 .logo {
 	border: 3px solid #fff;
 	border-bottom-color: transparent; 
@@ -49,13 +48,6 @@
 			transition: 		transform 2s;
 }
 
-/*.logo:hover {
-	position: relative;
-
-	-webkit-transform: rotateY(540deg);
-			transform: rotateY(540deg);
-}*/
-
 .R, .K {
 	display: inline-block;
 	position: relative;
@@ -73,7 +65,6 @@
 
 .down {
 	display: inline-block;
-	/*position: absolute;*/
 	-webkit-transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
 			transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
 }

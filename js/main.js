@@ -7,7 +7,6 @@
 
 
 setHeight( $('.set-height') );
-
 // elements with a class of set-height will have a total height of the height 
 // of the window's multiplied why the value of its data-height attribute
 
@@ -38,6 +37,7 @@ window.addEventListener('scroll', function(){
 // ******************** On resize event ********************
 window.addEventListener('resize', function(){
     heroEffects.set();
+    setHeight( $('.set-height') );
     // aboutEffects.set();
 });
 
