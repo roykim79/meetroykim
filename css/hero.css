@@ -25,9 +25,6 @@
 	font-size: 1em;
 }
 
-#skills  {
-	text-align: center;
-}
 
 .logo {
 	border: 3px solid #fff;
@@ -40,13 +37,24 @@
 	font-weight: 300;
 	line-height: 1.6em;
 	padding:  4px ;
-	transition: transform 2s;
+	-webkit-animation-timing-function: linear;
+			animation-timing-function: linear;
+	-webkit-animation-name: spin;
+			animation-name: spin;
+	-webkit-animation-duration: 1.75s;
+			animation-duration: 1.75s;
+	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+	-webkit-transition: -webkit-transform 2s;
+			transition: 		transform 2s;
 }
 
-.logo:hover {
+/*.logo:hover {
 	position: relative;
-	transform: rotateY(540deg);
-}
+
+	-webkit-transform: rotateY(540deg);
+			transform: rotateY(540deg);
+}*/
 
 .R, .K {
 	display: inline-block;
@@ -55,7 +63,8 @@
 
 .R {
 	left: .2em;
-	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+			transform: rotateY(180deg);
 }
 
 .K {
@@ -65,7 +74,8 @@
 .down {
 	display: inline-block;
 	/*position: absolute;*/
-	transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
+	-webkit-transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
+			transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
 }
 
 

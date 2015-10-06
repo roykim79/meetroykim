@@ -200,6 +200,10 @@ img {
 	padding-bottom: 5%;
 	padding-top: 3%;
 }
+
+#skills  {
+	text-align: center;
+}
 #samples h2 {
 	margin-bottom: 2%;
 }
@@ -385,7 +389,7 @@ header a {
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 a.contact {
-	font-family: 'Oswald';
+	/*font-family: 'Oswald';*/
 }
  .icon {
  	border: 2px solid #aaa;
@@ -395,6 +399,7 @@ a.contact {
  	font-size: 1.2em;
  	line-height: 30px;
  	margin-right: 7px;
+ 	overflow: visible;
  	padding-left: 4px;
  	text-align: center;
  	/*transition-duration: .3s;*/
@@ -410,13 +415,15 @@ a.contact {
 ul.inline-spaced li {
 	overflow: visible;
 }
- .contact:hover a {
+.contact:hover a {
  	overflow: visible;
  }
 .contact:hover .icon {
 	border-color: #ddd;
 	overflow: visible;
-	transform: scale(1.04);
+	/*padding: 0 5px;*/
+	-webkit-transform: scale(1.14);
+	transform: scale(1.14);
 	/*font-size: 1.25em;*/
 	/*height: 32px;*/
 	/*width: 28px;*/
@@ -487,11 +494,19 @@ ul.inline-spaced li {
 	.col-third-half-full {
 		width: 94%;
 	}
-	
+	h3, 
+	.center,
+	#skills {
+		text-align: left;
+	}
+	#skills article {
+		margin: 15px 0;
+	}
 	.inline li {
 		border-bottom: 1px solid #fff;
 		display: block;
 		padding: 10px 0;
+		text-align: left;
 	}
 	.inline li:last-child {
 		border-bottom: none;
