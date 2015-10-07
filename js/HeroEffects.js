@@ -68,17 +68,16 @@ var setHeight = function(els){
 			paddingTop = totalPadding * $this.data('padding-top'),
 			paddingBottom = totalPadding - paddingTop;
 
-		console.log(totalHeight);
-		if (ratio < 1.25 ) {
-			var multiplier = 1 - (1.25 - ratio);
+		// if (ratio < 1.25 ) {
+		// 	var multiplier = 1 - (1.25 - ratio);
 
-			totalHeight = totalHeight * multiplier;
-			totalPadding = totalHeight - contentHeight;
-			paddingTop = totalPadding * $this.data('padding-top');
-			paddingBottom = totalPadding - paddingTop;
-			console.log(totalHeight);
-			console.log(paddingBottom);
-		};
+		// 	totalHeight = totalHeight * multiplier;
+		// 	totalPadding = totalHeight - contentHeight;
+		// 	paddingTop = totalPadding * $this.data('padding-top');
+		// 	paddingBottom = totalPadding - paddingTop;
+		// 	console.log(totalHeight);
+		// 	console.log(paddingBottom);
+		// };
 
 		$this.css({
 			'padding-top': paddingTop,
