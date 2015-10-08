@@ -15,7 +15,9 @@
 	font-weight: lighter;
 	/*padding: 0 15px;*/
 }
-
+#about .content {
+	padding: 2%;
+}
 #about .content a {
 	/*border-bottom: 1px solid #fff;*/
 	color: #aaf;
