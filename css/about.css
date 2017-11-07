@@ -11,22 +11,12 @@
 	background: rgba(0,0,0,.7);
 	color: #fff;
 	font-family: "open sans", "helvetica neue", arial, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.75em;
 	font-weight: lighter;
 	/*padding: 0 15px;*/
 }
 #about .content {
 	padding: 2%;
-}
-#about .content a {
-	/*border-bottom: 1px solid #fff;*/
-	color: #aaf;
-	text-decoration: none;
-}
-#about .content a:hover {
-	border-bottom: 2px solid #ddd;
-	/*border-bottom: none;*/
-	color: #ddd;
 }
 
 #about .container {
