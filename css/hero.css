@@ -1,9 +1,21 @@
 #hero {
-	background: #4A525A;
+	/*background: #4A525A;*/
+	/*background: #ff0;*/
+	background: linear-gradient(
+      rgba(50, 50, 50, 0.3), 
+      rgba(50, 50, 50, 0.3)
+    ), url(../img/chicagoRiver.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
+	/*text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;*/
+	/*text-shadow: -2px -2px black;*/
+
 }
 
 #hero .content {
+	/*background: rgba(0,0,0,.5);*/
 }
 
 .name {

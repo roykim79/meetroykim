@@ -188,6 +188,9 @@ em {
 img {
 	display: block;
 	float: none;
+}
+.slides img,
+ #samples img {
 	width: 100%;
 }
 
@@ -513,6 +516,7 @@ ul.inline-spaced li {
 	.footer-contact-divider {
 		display: none;
 	}
+
 
 
 }
