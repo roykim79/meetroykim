@@ -133,13 +133,14 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: "open sans", arial, sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-weight: 300;
 }
 
 h1 {
-	font-size: 2.75em;
 	color: #fff;
+	font-size: 2.75em;
+	padding: 1%;
 }
 h2 {
 	border-bottom: 1px solid #595959;
@@ -159,7 +160,7 @@ h4 {
 	font-weight: bold;
 }
 p {
-	font-family:  "Open Sans", arial, sans-serif;
+	font-family: "Open Sans", arial, sans-serif;
 	font-weight: lighter;
 	line-height: 1.5em;
 }

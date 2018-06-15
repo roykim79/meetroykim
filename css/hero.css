@@ -1,16 +1,12 @@
 #hero {
-	/*background: #4A525A;*/
-	/*background: #ff0;*/
 	background: linear-gradient(
-      rgba(50, 50, 50, 0.3), 
+      rgba(50, 50, 50, 0.3),
       rgba(50, 50, 50, 0.3)
-    ), url(../img/chicagoRiver.jpg);
+    );
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	/*text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;*/
-	/*text-shadow: -2px -2px black;*/
 
 }
 
@@ -19,7 +15,6 @@
 }
 
 .name {
-	/*border-bottom: 3px solid #3a3a42;*/
 	display: inline-block;
 	font-family: 'Open Sans Condensed';
 	font-size: 5em;
@@ -39,9 +34,8 @@
 
 .logo {
 	border: 3px solid #fff;
-	border-bottom-color: transparent; 
+	border-bottom-color: transparent;
 	border-radius: 50%;
-	/*color: #3a3a42;*/
 	display: inline-block;
 	font-family: "Open Sans", "PT Serif", "Georgia";
 	font-size: 2.25em;
@@ -80,17 +74,3 @@
 	-webkit-transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
 			transform: rotateZ(270deg) rotateY(60deg) scale(2.25);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
